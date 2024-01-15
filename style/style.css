@@ -106,4 +106,58 @@ border-radius: 5px;
 background: #FF5400;
 }
 
+/* main section */
+.main-container{
+    max-width: 1170px;
+    margin: 100px auto;
+}
+/* popular section style */
+.popular-section-content{
+    width: 50%;
+}
+.popular-section{
+    display: flex;
+    gap: 100px;
+}
+.popular-image{
+    border-radius: 16px;
+background: url('../Images/Rectangle\ 4.png'), lightgray 50% / cover no-repeat;
+height: 550px;
+width: 50%;
+}
+.popular-title{
+    color: #131318;
+text-align: center;
+font-size: 2.5rem;
+font-weight: 800;
+
+}
+.popular-description{
+color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+padding: 24px 0px;
+}
+.popular-list{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+}
+.popular-description-section{
+    color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+padding: 24px 0px;
+}
+.popular-button{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 800;
+}
+
 
