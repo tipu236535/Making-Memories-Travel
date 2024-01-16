@@ -532,14 +532,6 @@ input[type="email"],
     color: #FFF;
 }
 
-
-
-
-
-
-
-
-
 /* footer style */
 .footer-section {
     width: 100%;
@@ -588,79 +580,141 @@ input[type="email"],
 
 
 
-   /* hide */
-   .hide{
-    display: none;
-   }
-
 
 
 /* responsive style */
-@media screen and (max-width:660px) {
-    .nav-container{
+@media screen and (max-width:600px) {
+    .nav-container {
         flex-direction: column;
-    
+
     }
-    .nav-logo{
+
+    .nav-content {
+        flex-direction: column;
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+
+
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        padding: 30px 60px 0px 100px;
+    }
+
+    .banner-description {
+        padding: 0px;
+    }
+
+    .banner-input-container {
         flex-direction: column;
     }
-    .nav-content{
+
+    .input-container {
         flex-direction: column;
+        padding-left: 100px;
+    }
+
+    .popular-section-content {
         width: 100%;
-    }
-    .banner-input-container{
-        flex-direction: column;
-    }
-    .popular-section{
-        flex-direction: column;   
-    }
-    .popular-section{
-        width: 100%;
-    }
-    .destination-description{
-        padding: 20px;
-    }
-    .destination-batch-img-container{
-        flex-direction: column;
-    }
-    .mountain-img-container{
-        flex-direction: column;
-    }
-    .river-container{
-        flex-direction: column;
-    }
-    .choose-description{
-        padding: 20px;
-    }
-    .card-container{
-        flex-direction: column;
-    }
-    .price-card{
-        flex-direction: column;
-    }
-    .perfect-place{
-        flex-direction: column;
-    }
-    .perfect-place-list{
-        width: 100%;
-    }
-    .news-letter-container{
-        flex-direction: column;
-    }
-    .footer-logo-section{
-        flex-direction: column;
-    }
-    .social-bar{
-        flex-direction: column;
-    }
-    .footer-copyright{
-        flex-direction: column;
-    }
-    .footer-description{
         padding-left: 20px;
     }
-    
-     
-    
+
+    .popular-section {
+        flex-direction: column;
+    }
+
+    .popular-section {
+        width: 100%;
+    }
+
+    .destination-title {
+        font-size: 2rem;
+    }
+
+    .destination-description {
+        padding: 10px;
+    }
+
+    .destination-batch-img-container {
+        flex-direction: column;
+    }
+
+    .srilanka-mountain-img {
+        width: 374px;
+        padding-left: 20px;
+    }
+
+    .mountain-img-container {
+        flex-direction: column;
+    }
+
+    .river-container {
+        flex-direction: column;
+    }
+
+    .choose-description {
+        padding: 20px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .price-card {
+        flex-direction: column;
+    }
+
+    .perfect-place {
+        flex-direction: column;
+    }
+
+    .perfect-place-list {
+        width: 100%;
+    }
+
+    .news-letter-container {
+        flex-direction: column;
+    }
+
+    .offer {
+        left: 420px;
+    }
+
+    .footer-logo-section {
+        flex-direction: column;
+    }
+
+    .footer-description {
+        padding: 0px;
+    }
+
 }
-    
+
+/* laptop device */
+@media screen and (min-width:992px) and (max-width:1250px) {
+    .offer {
+
+        left: 190px;
+
+    }
+
+    .perfect-video {
+        width: 450px;
+    }
+
+    .popular-section {
+        gap: 40px;
+    }
+
+    .banner-description {
+        padding: 0 100px;
+    }
+
+    .banner-title {
+        padding-left: 100px;
+    }
+
+}
