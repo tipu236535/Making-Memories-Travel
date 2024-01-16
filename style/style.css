@@ -40,6 +40,7 @@ body {
 
 .nav-content a {
     text-decoration: none;
+
 }
 
 .nav-content {
@@ -75,89 +76,591 @@ body {
     font-weight: 400;
     padding: 20px 285px 0px 285px;
 }
-.banner-input-container{
+
+.banner-input-container {
     display: flex;
     justify-content: center;
 }
-.banner-input-background{
+
+.banner-input-background {
     border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-padding: 16px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
 
 }
 
-.input-container{
+.input-container {
     display: flex;
     justify-content: center;
     gap: 24px;
 
 
 }
-.input-container input{
+
+.input-container input {
     width: 174px;
     height: 35px;
     border-radius: 5px;
 
 }
-.input-container button{
+
+.input-container button {
     width: 174px;
-height: 35px;
-border-radius: 5px;
-background: #FF5400;
+    height: 35px;
+    border-radius: 5px;
+    background: #FF5400;
 }
 
+
 /* main section */
-.main-container{
+.main-container {
     max-width: 1170px;
     margin: 100px auto;
 }
+
 /* popular section style */
-.popular-section-content{
+.popular-section-content {
     width: 50%;
 }
-.popular-section{
+
+.popular-section {
     display: flex;
     gap: 100px;
 }
-.popular-image{
+
+.popular-image {
     border-radius: 16px;
-background: url('../Images/Rectangle\ 4.png'), lightgray 50% / cover no-repeat;
-height: 550px;
-width: 50%;
+    background: lightgray 50% / cover no-repeat;
+    height: 550px;
+    width: 50%;
 }
-.popular-title{
+
+.popular-title {
     color: #131318;
-text-align: center;
-font-size: 2.5rem;
-font-weight: 800;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
 
 }
-.popular-description{
-color: rgba(19, 19, 24, 0.70);
-font-size: 1rem;
-font-weight: 400;
-padding: 24px 0px;
-}
-.popular-list{
+
+.popular-description {
     color: rgba(19, 19, 24, 0.70);
-font-size: 1rem;
-font-weight: 400;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 24px 0px;
 }
-.popular-description-section{
+
+.popular-list {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.popular-description-section {
     color: #5A5A5D;
-font-size: 1rem;
-font-weight: 400;
-padding: 24px 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 24px 0px;
 }
-.popular-button{
+
+.popular-button {
     width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-text-align: center;
-font-size: 1.25rem;
-font-weight: 800;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+/* Choose Your Destination style */
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 24px 260px 45px 260px;
+}
+
+.destination-container {
+    gap: 15px;
+    border-radius: 16px;
+}
+
+.destination-batch-img-container {
+    display: flex;
+    gap: 15px;
+}
+
+.destination-img-batch {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    width: 573px;
+    height: 300px;
+    position: relative;
+
+
+}
+
+.batch-title {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 800;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+}
+
+.destination-img-boat {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 8.png), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+    width: 573px;
+    height: 300px;
+    position: relative;
+
+}
+
+.destination-img-boat-title {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 800;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+}
+
+.mountain-img-container {
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+.srilanka-mountain-img {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+    width: 374px;
+    height: 286px;
+    position: relative;
+}
+
+.srilanka-mountain-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+}
+
+.america-mountain-img {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+    width: 474px;
+    height: 286px;
+    position: relative;
+}
+
+.america-mountain-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+}
+
+.kashmir-mountain-img {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+    width: 274px;
+    height: 286px;
+    position: relative;
+
+}
+
+.kashmir-mountain-title {
+    color: #FFF;
+    ;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+
+}
+
+.river-container {
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+.bangldesh-river-img {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+    width: 473px;
+    height: 300px;
+    position: relative;
+
+}
+
+.bangldesh-river-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+
+}
+
+.bandarban-river-img {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+    width: 673px;
+    height: 300px;
+    position: relative;
+}
+
+.bandarban-river-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
 }
 
 
+
+
+/* Why Choose Us style */
+.choose-title {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+
+.choose-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 24px 260px 45px 260px;
+}
+
+.card-container {
+    display: flex;
+    gap: 10px;
+}
+
+.hotel-card-container {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 10px 30px;
+
+}
+
+.hotel-card-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.hotel-card-description {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.map-card-container {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 10px 30px;
+}
+
+.map-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.map-description {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.price-card {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.price-container {
+    width: 573px;
+    height: 284px;
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 10px 30px;
+}
+
+/* perfect-place */
+.perfect-place {
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.perfect-place-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.perfect-place-description {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.perfect-place-list {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.perfect-place-button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+/* Newsletter style */
+.news-letter-container {
+    display: flex;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.news-letter-img {
+    border-radius: 16px;
+    background: url('../Images/Rectangle\ 8\ \(1\).png'), lightgray 50% / cover no-repeat;
+    width: 672px;
+    height: 422px;
+    position: relative;
+
+}
+
+.offer {
+    text-align: center;
+    color: #FFF;
+    width: 250px;
+    height: 80px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    bottom: 35px;
+    left: 373px;
+
+}
+
+
+.news-letter-column {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 30px;
+
+}
+
+.contact input[type="text"],
+input[type="email"],
+.subscribe-button {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 393px;
+    height: 35px;
+
+}
+
+.news-letter-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.news-letter-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe-button {
+    width: 450px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+/* footer style */
+.footer-section {
+    width: 100%;
+    /* height: 507px; */
+    height: 100%;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-logo-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 335px;
+}
+
+.social-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    padding-top: 32px;
+    padding-bottom: 70px;
+}
+
+.footer-copyright {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+
+
+
+   /* hide */
+   .hide{
+    display: none;
+   }
+
+
+
+/* responsive style */
+@media screen and (max-width:660px) {
+    .nav-container{
+        flex-direction: column;
+    
+    }
+    .nav-logo{
+        flex-direction: column;
+    }
+    .nav-content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner-input-container{
+        flex-direction: column;
+    }
+    .popular-section{
+        flex-direction: column;   
+    }
+    .popular-section{
+        width: 100%;
+    }
+    .destination-description{
+        padding: 20px;
+    }
+    .destination-batch-img-container{
+        flex-direction: column;
+    }
+    .mountain-img-container{
+        flex-direction: column;
+    }
+    .river-container{
+        flex-direction: column;
+    }
+    .choose-description{
+        padding: 20px;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .price-card{
+        flex-direction: column;
+    }
+    .perfect-place{
+        flex-direction: column;
+    }
+    .perfect-place-list{
+        width: 100%;
+    }
+    .news-letter-container{
+        flex-direction: column;
+    }
+    .footer-logo-section{
+        flex-direction: column;
+    }
+    .social-bar{
+        flex-direction: column;
+    }
+    .footer-copyright{
+        flex-direction: column;
+    }
+    .footer-description{
+        padding-left: 20px;
+    }
+    
+     
+    
+}
+    
